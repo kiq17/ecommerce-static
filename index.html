@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="main.js" defer></script>
+    <title>HypedCotent</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="" class="logo"><img src="img/wildbeast.svg" alt="Logo" srcset=""></a>
+        </div>
+        <div class="menu">
+            <button id="btn-mobile">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="menu-lista">
+                <ul>
+                    <li><a class="li-a" href="#header">Home</a></li>
+                    <li><a class="li-a" href="">Contato</a></li>
+                    <li><a class="li-a" href="#produtos">Produtos</a></li>
+                    <li><a class="li-a" href="">Novidades</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="img-carrinho">
+            <i class="fas fa-shopping-cart"></i>
+            <p class="contador-carrinho">0</p>
+        </div>
+        <div class="carrinho-lista">
+            <h3 class="carrinho-titulo">Meu carrinho</h3>
+            <div class="itens-carrinho">
+                <!-- <div class="item">
+                        <img src="img/16304136_31256466_1000.webp" alt="Camisa">
+                        <div class="item-texto">
+                            <p>Camisa Mcdoand</p>
+                            <p class="qtd">Qtd.<span>1</span></p>
+                        </div>
+                        <button>X</button>
+                    </div> -->
+            </div>
+            <div id="vazio">
+                <p><span>:(</span> Carrinho vazio</p>
+            </div>
+            <h3 class="total">Total <strong class="preco-total">0</strong></h3>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="video-wrap">
+            <video autoplay loop muted src="img/Untitled.mp4"></video>
+        </div>
+        <div class="texto-capa">
+            <h1>A maior do Brasil</h1>
+            <p>Os últimos lançamentos você só encontra aqui</p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h3>Novidades</h3>
+        <div class="itens">
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17593842_36945132_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa da monalisa</p>
+                <p>R$ <span class="preco">100</span></p>
+                <a class="add-carrinho" href="" data-id="1">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/16304136_31256466_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa Mcdonald</p>
+                <p>R$ <span class="preco">200</span></p>
+                <a class="add-carrinho" href="" data-id="2">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/16959065_36490628_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa All Black</p>
+                <p>R$ <span class="preco">200</span></p>
+                <a class="add-carrinho" href="" data-id="3">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17640460_36943186_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa Azul</p>
+                <p>R$ <span class="preco">200</span></p>
+                <a class="add-carrinho" href="" data-id="4">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17700017_37137964_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa da monalisa</p>
+                <p>R$ <span class="preco">150</span></p>
+                <a class="add-carrinho" href="" data-id="5">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+    <section class="desconto">
+        <div class="conteudo-desconto">
+            <div class="texto-desconto">
+                <h3>Não perca!</h3>
+                <p>Cupons com até 70% de desconto em toda loja</p>
+                <button>Resgate o seu</button>
+            </div>
+            <div class="wrap-desconto">
+                <img src="img/cupom.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <section class="produtos" id="promocao">
+        <h3>Promoções</h3>
+        <div class="itens">
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17593842_36945132_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa da monalisa</p>
+                <div class="promo-item">
+                    <p>R$ <span class="preco-inicial">100</span></p>
+                    <div class="preco-final">
+                        <p>R$ <span class="preco">80</span></p>
+                    </div>
+                </div>
+                <a class="add-carrinho" href="" data-id="6">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/16304136_31256466_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa Mcdonald</p>
+                <div class="promo-item">
+                    <p>R$ <span class="preco-inicial">150</span></p>
+                    <div class="preco-final">
+                        <p>R$ <span class="preco">100</span></p>
+                    </div>
+                </div>
+                <a class="add-carrinho" href="" data-id="7">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/16959065_36490628_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa All Black</p>
+                <div class="promo-item">
+                    <p>R$ <span class="preco-inicial">100</span></p>
+                    <div class="preco-final">
+                        <p>R$ <span class="preco">80</span></p>
+                    </div>
+                </div>
+                <a class="add-carrinho" href="" data-id="8">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17640460_36943186_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa Azul</p>
+                <p>R$ <span class="preco">200</span></p>
+                <a class="add-carrinho" href="" data-id="9">Adicionar ao Carrinho</a>
+            </div>
+            <div class="item-single">
+                <div class="img-wrap">
+                    <img src="img/17700017_37137964_1000.webp" alt="" srcset="">
+                </div>
+                <p class="titulo-item">Camisa da monalisa</p>
+                <p>R$ <span class="preco">150</span></p>
+                <a class="add-carrinho" href="" data-id="10">Adicionar ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+</body>
+</body>
+
+
+</html>
