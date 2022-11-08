@@ -1,5 +1,8 @@
+<div align="center">
 <h1 align="center">E-commerce Static</h1>
-<a align="center" href="https://kiq17.github.io/ecommerce-static/">Clique aqui para conferir</a>
+<a href="https://kiq17.github.io/ecommerce-static/">Clique aqui para conferir</a>
+</div>
+
 
 <br>
 
