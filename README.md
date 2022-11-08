@@ -23,8 +23,6 @@ O que foi usado neste projeto:
 - Item A: Contador mostrando o número total de itens no carrinho.
 - Item B: Quantidade de um item que já está presente no carrinho.
 
-https://github.com/kiq17/ecommerce-static/blob/main/img/Frame%202.png
-
 <img alt="Demonstração carrinho de compras" src="https://github.com/kiq17/ecommerce-static/blob/main/img/Frame%202.png">
 
 <a href="#top">Voltar ao topo</a>
