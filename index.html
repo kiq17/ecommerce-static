@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="main.js" defer></script>
     <title>HypedCotent</title>
 </head>
@@ -16,7 +19,7 @@
 <body>
     <header id="header">
         <div class="logo">
-            <a href="" class="logo"><img src="img/wildbeast.svg" alt="Logo" srcset=""></a>
+            <a href="" class="logo"><img src="img/wildbeast.svg" alt="Logo"></a>
         </div>
         <div class="menu">
             <button id="btn-mobile">
@@ -24,10 +27,9 @@
             </button>
             <nav class="menu-lista">
                 <ul>
-                    <li><a class="li-a" href="#header">Home</a></li>
-                    <li><a class="li-a" href="">Contato</a></li>
-                    <li><a class="li-a" href="#produtos">Produtos</a></li>
-                    <li><a class="li-a" href="">Novidades</a></li>
+                    <li><a class="li-a" href="#home">Home</a></li>
+                    <li><a class="li-a" href="#produtos">Novidades</a></li>
+                    <li><a class="li-a" href="#promocao">Promoções</a></li>
                 </ul>
             </nav>
         </div>
@@ -53,14 +55,14 @@
             <h3 class="total">Total <strong class="preco-total">0</strong></h3>
         </div>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="video-wrap">
             <video autoplay loop muted src="img/Untitled.mp4"></video>
         </div>
         <div class="texto-capa">
             <h1>A maior do Brasil</h1>
             <p>Os últimos lançamentos você só encontra aqui</p>
-            <button>Saiba Mais</button>
+            <a href="#produtos">Saiba Mais</a>
         </div>
     </section>
 
@@ -69,7 +71,7 @@
         <div class="itens">
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17593842_36945132_1000.webp" alt="" srcset="">
+                    <img src="img/17593842_36945132_1000.webp" alt="Camisa da monalisa">
                 </div>
                 <p class="titulo-item">Camisa da monalisa</p>
                 <p>R$ <span class="preco">100</span></p>
@@ -77,7 +79,7 @@
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/16304136_31256466_1000.webp" alt="" srcset="">
+                    <img src="img/16304136_31256466_1000.webp" alt="Camisa Mcdonald">
                 </div>
                 <p class="titulo-item">Camisa Mcdonald</p>
                 <p>R$ <span class="preco">200</span></p>
@@ -85,7 +87,7 @@
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/16959065_36490628_1000.webp" alt="" srcset="">
+                    <img src="img/16959065_36490628_1000.webp" alt="Camisa All Black">
                 </div>
                 <p class="titulo-item">Camisa All Black</p>
                 <p>R$ <span class="preco">200</span></p>
@@ -93,7 +95,7 @@
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17640460_36943186_1000.webp" alt="" srcset="">
+                    <img src="img/17640460_36943186_1000.webp" alt="Camisa Azul">
                 </div>
                 <p class="titulo-item">Camisa Azul</p>
                 <p>R$ <span class="preco">200</span></p>
@@ -101,9 +103,9 @@
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17700017_37137964_1000.webp" alt="" srcset="">
+                    <img src="img/17700017_37137964_1000.webp" alt="Camisa da monalisa">
                 </div>
-                <p class="titulo-item">Camisa da monalisa</p>
+                <p class="titulo-item">Camisa Versace</p>
                 <p>R$ <span class="preco">150</span></p>
                 <a class="add-carrinho" href="" data-id="5">Adicionar ao Carrinho</a>
             </div>
@@ -117,7 +119,7 @@
                 <button>Resgate o seu</button>
             </div>
             <div class="wrap-desconto">
-                <img src="img/cupom.png" alt="" srcset="">
+                <img src="img/cupom.png" alt="Cupom de desconto">
             </div>
         </div>
     </section>
@@ -127,57 +129,67 @@
         <div class="itens">
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17593842_36945132_1000.webp" alt="" srcset="">
+                    <img src="img/17593842_36945132_1000.webp" alt="Camisa da monalisa">
                 </div>
                 <p class="titulo-item">Camisa da monalisa</p>
                 <div class="promo-item">
-                    <p>R$ <span class="preco-inicial">100</span></p>
+                    <p>R$ <span class="preco-inicial">30</span></p>
                     <div class="preco-final">
-                        <p>R$ <span class="preco">80</span></p>
+                        <p>R$ <span class="preco">70</span></p>
                     </div>
                 </div>
                 <a class="add-carrinho" href="" data-id="6">Adicionar ao Carrinho</a>
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/16304136_31256466_1000.webp" alt="" srcset="">
+                    <img src="img/16304136_31256466_1000.webp" alt="Camisa Mcdonald">
                 </div>
                 <p class="titulo-item">Camisa Mcdonald</p>
                 <div class="promo-item">
                     <p>R$ <span class="preco-inicial">150</span></p>
                     <div class="preco-final">
-                        <p>R$ <span class="preco">100</span></p>
+                        <p>R$ <span class="preco">105</span></p>
                     </div>
                 </div>
                 <a class="add-carrinho" href="" data-id="7">Adicionar ao Carrinho</a>
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/16959065_36490628_1000.webp" alt="" srcset="">
+                    <img src="img/16959065_36490628_1000.webp" alt="Camisa All Black">
                 </div>
                 <p class="titulo-item">Camisa All Black</p>
                 <div class="promo-item">
                     <p>R$ <span class="preco-inicial">100</span></p>
                     <div class="preco-final">
-                        <p>R$ <span class="preco">80</span></p>
+                        <p>R$ <span class="preco">70</span></p>
                     </div>
                 </div>
                 <a class="add-carrinho" href="" data-id="8">Adicionar ao Carrinho</a>
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17640460_36943186_1000.webp" alt="" srcset="">
+                    <img src="img/17640460_36943186_1000.webp" alt="Camisa Azul">
                 </div>
                 <p class="titulo-item">Camisa Azul</p>
-                <p>R$ <span class="preco">200</span></p>
+                <div class="promo-item">
+                    <p>R$ <span class="preco-inicial">200</span></p>
+                    <div class="preco-final">
+                        <p>R$ <span class="preco">140</span></p>
+                    </div>
+                </div>
                 <a class="add-carrinho" href="" data-id="9">Adicionar ao Carrinho</a>
             </div>
             <div class="item-single">
                 <div class="img-wrap">
-                    <img src="img/17700017_37137964_1000.webp" alt="" srcset="">
+                    <img src="img/17700017_37137964_1000.webp" alt="Camisa Versace">
                 </div>
-                <p class="titulo-item">Camisa da monalisa</p>
-                <p>R$ <span class="preco">150</span></p>
+                <p class="titulo-item">Camisa Versace</p>
+                <div class="promo-item">
+                    <p>R$ <span class="preco-inicial">150</span></p>
+                    <div class="preco-final">
+                        <p>R$ <span class="preco">105</span></p>
+                    </div>
+                </div>
                 <a class="add-carrinho" href="" data-id="10">Adicionar ao Carrinho</a>
             </div>
         </div>

@@ -1,7 +1,7 @@
 const iconeCarrinho = document.querySelector('.img-carrinho')
 const carrinhoLista = document.querySelector('.carrinho-lista')
 const itensCarrinho = document.querySelector('.itens-carrinho')
-const conteudo = document.querySelector('.produtos')
+const conteudo = document.querySelectorAll('.produtos')
 
 const precoTexto = document.querySelector('.preco-total')
 const vazioStyle = document.getElementById('vazio')
@@ -31,7 +31,11 @@ iconeCarrinho.addEventListener('click', () => {
     carrinhoLista.classList.toggle('ativo')
 })
 
-conteudo.addEventListener('click', pegarItem)
+
+conteudo.forEach(section=>{
+    section.addEventListener('click', pegarItem)
+})
+
 
 carrinhoLista.addEventListener('click', removerProduto)
 
@@ -146,3 +150,16 @@ function abrirMenu(){
     const div = document.querySelector('.menu');
     div.classList.toggle('ativo');
 }
+
+
+/* header fixo */
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", ()=>{
+    if(window.scrollY > 0){
+        header.classList.add("ativo")
+    } else{
+        header.classList.remove("ativo")
+    }
+})
