@@ -8,7 +8,7 @@
 
 ## :sparkles: Sobre ##
 
-Site baseado no modelo de paginas E-commerce com carrinho de compras com a possiblidade de remover, adiconar e calcular preço total.
+Site baseado no modelo de paginas E-commerce com carrinho de compras com a possiblidade de remover, adicionar e calcular preço total.
 
 ## :rocket: Tecnologias ##
 
